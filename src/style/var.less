@@ -1,0 +1,185 @@
+@header-bg-color:#393a3f;
+@font-color:#fff;
+@font-size:1.3rem;
+html,
+body {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  font-family: '方正黑体简体', 'sans-serif', "Microsoft YaHei", "微软雅黑", "Tahoma", "Helvetica";
+  background: #fff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a{
+  text-decoration: none;
+  color:#fff;
+}
+h3,img,p,h4,ul,li ,input{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 415px) and (max-width: 639px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 719px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 799px) {
+  html {
+    font-size: 23.5px;
+  }
+
+
+}
+
+@media screen and (min-width: 750px) {
+  
+  .hit-egg{
+    position: relative;
+    /*height: 600rem;*/
+    /*width:375rem;*/
+    margin:0 auto;
+    
+  }
+
+
+}
+@media screen and (min-width: 800px) and (max-width: 1199px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 30px;
+  }
+}
+.clear {
+  margin: 0px auto;
+  width: 100%;
+  height: 1px;
+  font-size: 1px;
+  clear: both;
+  background: none;
+  overflow: hidden;
+}
+.lf {
+  float: left;
+}
+.rt {
+  float: right;
+}
+.clearfix:before,
+   .clearfix:after {
+      content:"";
+      display:table;
+   }
+   .clearfix:after {
+     clear:both;
+     overflow:hidden;
+   }
+  .clearfix {
+     zoom:1; /* IE < 8 */
+  }
+  .flex{
+    display:box;
+    display:-webkit-box;  /* iOS 6-, Safari 3.1-6 */
+    display:-webkit-flex; /* Chrome */
+    display:-moz-box;     /* Firefox 19 */
+    display:-ms-flexbox;   
+    display:flex;
+  }
+  .flex-row{
+    -webkit-box-direction: normal;
+   -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+     -moz-flex-direction: row;
+     -ms-flex-direction: row;
+     -o-flex-direction: row; 
+     flex-direction:row;   
+  }
+  .flex-column{
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction:column ;
+     -moz-flex-direction: column;
+     -ms-flex-direction: column;
+     -o-flex-direction: column; 
+     flex-direction:column;  
+  }
+   .justify-content-center{
+     -webkit-box-pack: center;
+     -webkit-justify-content: center;
+     -moz-justify-content: center;
+     -ms-justify-content: center;
+     -o-justify-content: center;
+     justify-content: center;
+   }
+   .justify-content-end{
+     -webkit-box-pack:end;
+     -webkit-justify-content: flex-end;
+     -moz-justify-content: flex-end;
+     -ms-justify-content: flex-end;
+     -o-justify-content: flex-end;
+     justify-content: flex-end;
+   }
+   .justify-content-between{
+       -webkit-justify-content: space-between;
+       -moz-justify-content: space-between;
+       -ms-justify-content: space-between;
+       -o-justify-content: space-between;
+       justify-content: space-between;
+   }
+
+  .space-between{
+    display:box;
+    display:-webkit-box;  /* iOS 6-, Safari 3.1-6 */
+    display:-webkit-flex; /* Chrome */
+    display:-moz-box;     /* Firefox 19 */
+    display:-ms-flexbox;   
+    display:flex;
+    justify-content: space-between;
+    -webkit-justify-content:space-between;
+  }
+  .align-center{
+    -webkit-align-items:center;
+    -moz-align-items:center;
+    -ms-align-items:center;
+    -o-align-items:center;
+    align-items:center;  
+  }
+  .flex1{
+        -webkit-box-flex: 1  ; /* OLD - iOS 6-, Safari 3.1-6 */  
+        -moz-box-flex: 1;     /* OLD - Firefox 19- */              
+        -webkit-flex: 1;      /* Chrome */  
+        -ms-flex: 1;         /* IE 10 */  
+        flex: 1;              /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  }
+  .border-radius{
+      -moz-border-radius: .5rem; /* Firefox */
+      -webkit-border-radius: .5rem; /* Safari 和 Chrome */
+      border-radius: .5rem; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+
+  }
